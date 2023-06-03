@@ -1,8 +1,11 @@
-/*
+.notice-error {
+	background-color: rgba(var(--callout-error), 1);
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+.notice-warning {
+	background-color: rgba(var(--callout-warning), 1);
+}
 
-If your plugin does not need CSS, delete this file.
-
-*/
+.notice-success {
+	background-color: rgba(var(--callout-success), 1);
+}
